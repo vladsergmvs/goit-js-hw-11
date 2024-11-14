@@ -3,9 +3,10 @@
 .search-form  {
   display: flex;
   flex-direction: row;
-  width: 500px;
   margin: 0 auto;
   margin-top: 20px;
+  width: 371px;
+    height: 40px;
 }
 .search-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -26,11 +27,8 @@
   }
   .search-button {
     display: block;
-    margin-left: 10px;
+    margin-left: 8px;
     border: none;
-    border-radius: 4px;
-    width: 150px;
-    height: 40px;
     background-color: #4d5ae5;
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -39,7 +37,10 @@
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-   
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 91px;
+    height: 40px;
   }
 
   .search-button:hover {
@@ -47,7 +48,7 @@
    
       }
   
-
+/* ================================== */
 .gallery-list{
     display: flex;
     gap: 24px;
@@ -58,7 +59,7 @@
   
    .gallery-list-item {
     border: 1px solid rgba(15, 15, 15, 0.568);
-    /* width: calc((100% - 48px) / 3);  */
+     width: calc((100% - 48px) / 3);  
   } 
    
   .gallery-card-list{
@@ -71,3 +72,13 @@
   .gallery-card-list-item{
     text-align: center;
   }
+
+/* =================== */
+    .loader {
+      margin: auto;
+      visibility: hidden;
+    }
+  
+    .is-open {
+      visibility: visible;
+    }
