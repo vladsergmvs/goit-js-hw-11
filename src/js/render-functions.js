@@ -11,8 +11,8 @@ export function createMarkup(array) {
           downloads,
         }) => `
        <li class="gallery-list-item">
-     <a class="gallery-list-item-link" href="${largeImageURL}">
-      <img class="gallery-image" src="${webformatURL}"alt="${tags}"/>
+     <a class="gallery-list-item-link" href="${largeImageURL}" >
+      <img class="gallery-image" src="${webformatURL}" alt="${tags}"/>
     </a>           
               <ul class="gallery-card-list">
               <li class="gallery-card-list-item">
